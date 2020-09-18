@@ -1,12 +1,15 @@
 French fries is a kind of potato as raw material,
 cut into strips and fried food.
 French fries originated in Belgium.
+fried food
 French fries is now one of the most common fast food,
 popular all over the world.
+potato
 Potato chips contain a small amount of acrylamide.
 French fries are a kind of fast food.
 French fries are a snack
 French fries are a kind of fast food.
+potato
 whether a small amount of acrylamide is carcinogenic has not been known.
 French fries are fried food,
 excessive consumption of fried food will lead to obesity.
@@ -16,6 +19,8 @@ The ingredients include potatoes, salt and cooking oil.
 French fries is a kind of potato as raw material,
 cut into strips and fried food.
 French fries originated in Belgium.
+fried food
+potato
 French fries is now one of the most common fast food,
 popular all over the world.
 Potato chips contain a small amount of acrylamide.
@@ -26,12 +31,15 @@ The carcinogens contained in fried food are harmful to health in case of excessi
 The ingredients include potatoes, salt and cooking oil.
 French fries are a kind of fast food.
 French fries are fried food
+potato
 French fries are a kind of fast food.
 French fries is now one of the most common fast food,
 popular all over the world.
 Potato chips contain a small amount of acrylamide.
 whether a small amount of acrylamide is carcinogenic has not been known.
 French fries are fried food,
+fried food
+potato
 excessive consumption of fried food will lead to obesity.
 French fries are a kind of fast food.
 French fries are a snack
@@ -42,11 +50,43 @@ The ingredients include potatoes, salt and cooking oil.
 French fries is a kind of potato as raw material,
 cut into strips and fried food.
 French fries originated in Belgium.
+potato
 French fries is now one of the most common fast food,
 popular all over the world.
 French fries are a kind of fast food.
 French fries are a snack
 French fries are a kind of fast food.
+potato
+Potato chips contain a small amount of acrylamide.
+whether a small amount of acrylamide is carcinogenic has not been known.
+French fries are fried food, excessive consumption of fried food will lead to obesity.
+The carcinogens contained in fried food are harmful to health
+in case of excessive consumption of fried food.
+The ingredients include potatoes, salt and cooking oil.
+French fries are a kind of fast food.
+French fries are fried food
+fried food
+French fries are a snack
+French fries is a kind of potato as raw material,
+cut into strips and fried food.
+French fries originated in Belgium.
+French fries is now one of the most common fast food,
+popular all over the world.
+Potato chips contain a small amount of acrylamide.
+whether a small amount of acrylamide is carcinogenic has not been known.
+French fries are fried food,
+potato
+excessive consumption of fried food will lead to obesity.
+The carcinogens contained in fried food are harmful to health
+in case of excessive consumption of fried food.
+The ingredients include potatoes, salt and cooking oil.
+French fries is a kind of potato as raw material,
+cut into strips and fried food.
+French fries originated in Belgium.
+French fries is now one of the most common fast food,
+popular all over the world.
+fried food
+potato
 Potato chips contain a small amount of acrylamide.
 whether a small amount of acrylamide is carcinogenic has not been known.
 French fries are fried food, excessive consumption of fried food will lead to obesity.
@@ -56,14 +96,13 @@ The ingredients include potatoes, salt and cooking oil.
 French fries are a kind of fast food.
 French fries are fried food
 French fries are a snack
-French fries is a kind of potato as raw material,
-cut into strips and fried food.
-French fries originated in Belgium.
 French fries is now one of the most common fast food,
 popular all over the world.
 Potato chips contain a small amount of acrylamide.
 whether a small amount of acrylamide is carcinogenic has not been known.
 French fries are fried food,
+fried food
+potato
 excessive consumption of fried food will lead to obesity.
 The carcinogens contained in fried food are harmful to health
 in case of excessive consumption of fried food.
@@ -81,32 +120,11 @@ in case of excessive consumption of fried food.
 The ingredients include potatoes, salt and cooking oil.
 French fries are a kind of fast food.
 French fries are fried food
-French fries are a snack
-French fries is now one of the most common fast food,
-popular all over the world.
-Potato chips contain a small amount of acrylamide.
-whether a small amount of acrylamide is carcinogenic has not been known.
-French fries are fried food,
-excessive consumption of fried food will lead to obesity.
-The carcinogens contained in fried food are harmful to health
-in case of excessive consumption of fried food.
-The ingredients include potatoes, salt and cooking oil.
-French fries is a kind of potato as raw material,
-cut into strips and fried food.
-French fries originated in Belgium.
-French fries is now one of the most common fast food,
-popular all over the world.
-Potato chips contain a small amount of acrylamide.
-whether a small amount of acrylamide is carcinogenic has not been known.
-French fries are fried food, excessive consumption of fried food will lead to obesity.
-The carcinogens contained in fried food are harmful to health
-in case of excessive consumption of fried food.
-The ingredients include potatoes, salt and cooking oil.
-French fries are a kind of fast food.
-French fries are fried food
+potato
 French fries are a kind of fast food.
 French fries is a kind of potato as raw material,
 cut into strips and fried food.
+fried food
 French fries originated in Belgium.
 French fries is now one of the most common fast food,
 popular all over the world.
@@ -122,11 +140,15 @@ in case of excessive consumption of fried food.
 The ingredients include potatoes, salt and cooking oil.
 French fries is a kind of potato as raw material,
 cut into strips and fried food.
+potato
 French fries originated in Belgium.
 French fries is now one of the most common fast food,
 popular all over the world.
 French fries are a kind of fast food.
 French fries are a snack
+fried
+food
+fried
 French fries are a kind of fast food.
 Potato chips contain a small amount of acrylamide.
 whether a small amount of acrylamide is carcinogenic has not been known.
@@ -136,12 +158,14 @@ in case of excessive consumption of fried food.
 The ingredients include potatoes, salt and cooking oil.
 French fries are a kind of fast food.
 French fries are fried food
+potato
 French fries are a kind of fast food.
 French fries is now one of the most common fast food,
 popular all over the world.
 Potato chips contain a small amount of acrylamide.
 whether a small amount of acrylamide is carcinogenic has not been known.
 French fries are fried food,
+fried food
 excessive consumption of fried food will lead to obesity.
 The carcinogens contained in fried food are harmful to health
 in case of excessive consumption of fried food.
@@ -151,5 +175,6 @@ cut into strips and fried food.
 French fries originated in Belgium.
 French fries is now one of the most common fast food,
 popular all over the world.
+potato
 French fries are a kind of fast food.
 French fries are a snack
