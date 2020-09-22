@@ -141,20 +141,29 @@ model.compile(optimizer='rmsprop',
 
 model.load_weights('pre.h5')
 
+default = []
+default.append('and')
+default_input = stop(default)
+default_out = pad_sequences(
+    tokenizer.texts_to_sequences(default_input), maxlen=maxlen)
+default_result = model(default_out)
+
 
 def process(msg):
+    print(msg)
     user_input = []
     user_input.append(msg)
     user_input = stop(user_input)
-    user_out = pad_sequences(tokenizer.texts_to_sequences(user_input), maxlen=maxlen)
+    user_out = pad_sequences(
+        tokenizer.texts_to_sequences(user_input), maxlen=maxlen)
     result = model(user_out)
-    # print(result)
+    if np.argmax(result) == np.argmax(default_result):
+        return 'not found, please try again'
     foodname = food[np.argmax(result)]
     prob = np.round(result[0][np.argmax(result)], 2)
-    print(msg)
     print(foodname)
     print(prob)
-    return foodname, prob
+    return foodname
 
 
 def input_test():
@@ -165,7 +174,8 @@ def input_test():
     # user_input.append(gx.text)
     user_input.append(x)
     user_input = stop(user_input)
-    user_out = pad_sequences(tokenizer.texts_to_sequences(user_input), maxlen=maxlen)
+    user_out = pad_sequences(
+        tokenizer.texts_to_sequences(user_input), maxlen=maxlen)
     result = model(user_out)
     print(result)
     print(food[np.argmax(result)])
@@ -173,27 +183,27 @@ def input_test():
 
 
 if __name__ == '__main__':
-    # history = model.fit(data, labels,
-    #                     epochs=10,
-    #                     batch_size=64,
-    #                     validation_split=0.2
-    #                     # validation_data=(x_test, y_test)
-    #                     )
-    #
-    # model.save_weights('pre.h5')
-    #
-    # # test_dir = os.path.join(base_dir, 'test')
-    # labels = []
-    # texts = []
-    # texts, labels = load_data(test_dir)
-    # texts = stop(texts)
-    # labels = to_one_hot(labels)
-    #
-    # sequences = tokenizer.texts_to_sequences(texts)
-    # x_test = pad_sequences(sequences, maxlen=maxlen)
-    # y_test = np.asarray(labels)
-    #
-    # print(model.evaluate(x_test, y_test))
+    history = model.fit(data, labels,
+                        epochs=10,
+                        batch_size=64,
+                        validation_split=0.2
+                        # validation_data=(x_test, y_test)
+                        )
+
+    model.save_weights('pre.h5')
+
+    # test_dir = os.path.join(base_dir, 'test')
+    labels = []
+    texts = []
+    texts, labels = load_data(test_dir)
+    texts = stop(texts)
+    labels = to_one_hot(labels)
+
+    sequences = tokenizer.texts_to_sequences(texts)
+    x_test = pad_sequences(sequences, maxlen=maxlen)
+    y_test = np.asarray(labels)
+
+    print(model.evaluate(x_test, y_test))
 
     while True:
         input_test()
