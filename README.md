@@ -11,3 +11,9 @@
 4. Run **python nlp.py** to train data
 5. Run **python main.py 80** to set a connect to WeChat
 
+### Screenshot
+
+![](output.png)
+
+- input: food description like name,taste and material
+- output: food name and possibility
